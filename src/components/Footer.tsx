@@ -6,7 +6,7 @@ const Footer: React.FC = () => (
     role="contentinfo"
   >
     <span>
-      &copy; {new Date().getFullYear()} HelloApp. All rights reserved.
+      &copy; {new Date().getFullYear()} HelloApp.
     </span>
   </footer>
 );
