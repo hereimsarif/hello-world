@@ -7,13 +7,14 @@ import Index from '@/pages/Index';
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <Header />
-      <div className="pt-16 pb-12 min-h-screen flex flex-col"> {/* Padding to account for header/footer */}
+  
+      <div className=" min-h-screen flex flex-col"> {/* Padding to account for header/footer */}
         <Routes>
+        
           <Route path="/" element={<Index />} />
         </Routes>
       </div>
-      <Footer />
+
     </BrowserRouter>
   );
 };
